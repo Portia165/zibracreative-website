@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #521946;
+  --branding-color: #5483b3;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --secondary-color: #e9e8eb;
@@ -33,6 +33,39 @@ p {
 img {
   width: 600px;
   height: 600px;
+}
+
+nav li {
+  display: inline;
+  line-height: 40px;
+  margin-left: 15px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+  color: var(--branding-color);
+}
+
+nav li.active a {
+  color: var(--branding-color);
+}
+
+nav {
+  padding: 20px 0;
+}
+
+.logo {
+  max-height: 60px;
+  max-width: 150px;
 }
 
 .hero {
