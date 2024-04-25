@@ -49,12 +49,10 @@ nav a {
   text-decoration: none;
   color: #272142;
   transition: all 100ms ease-in-out;
+  font-size: 14px;
 }
 
-nav a:hover {
-  color: var(--branding-color);
-}
-
+nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
