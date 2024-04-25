@@ -22,6 +22,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+}
 
 p {
   font-weight: normal;
@@ -59,6 +62,34 @@ nav li.active a {
 
 nav {
   padding: 20px 0;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links {
+  color: var(--branding-color);
+  font-size: 18px;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
 }
 
 .logo {
@@ -143,5 +174,11 @@ li {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .btn {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 24px;
   }
 }
